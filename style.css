@@ -158,3 +158,13 @@ line-height: 70.5px;
     display: flex;
     gap: 16px;
 }
+.SME-Loans{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px; */
+        gap: 50px;
+       margin: 40px;
+    
+}
