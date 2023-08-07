@@ -65,7 +65,7 @@ a{
     border: 1px solid var(--primary-key-color-primary-color, #044188);
     margin-top: 16px;
     background-color: #EEF0FE;
-    color: #2A3541;
+    color: #044188;
     cursor: pointer;
 }
 .h2text{
@@ -165,6 +165,121 @@ line-height: 70.5px;
         justify-content: center;
         /* padding: 10px; */
         gap: 50px;
-       margin: 40px;
-    
+       margin: 40px; 
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px;
+    gap: 20px;
+    background-color: #EEF0FE;
+}
+.contact-content{
+    font-size: 16px;
+    width: 500px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.label{
+    font-size: 14px;
+    color: #EEF0FE;
+    font-weight: 400;
+}
+.form{
+    background-color: #044188;
+    margin: 0px 40px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.input{
+    width: 256px;
+    height: 44px;
+    border: none;
+    border-radius: 4px;
+    background-color: #EEF0FE;
+}
+.label-input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-list{
+    display: flex;
+    gap: 12px;
+}
+.form-button{
+    height: 44px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: #044188;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.contactus{
+    display: flex;
+    gap: 24px;
+   background-color: #EEF0FE;
+   margin: 120px 40px 0px 40px;
+   justify-content: space-between;
+   border-radius: 4px;
+}
+.footer{
+    background-color: #044188;
+    margin: 40px 40px 0px 40px;
+    padding: 40px 80px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.h3{
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+}
+.footertext{
+    font-size: 10px;
+    color: #EEF0FE;
+    font-weight: 100;
+}
+.address{
+    width: 180px;
+}
+.address-list{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-address{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.tr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EEF0FE;
+}
+.td{
+    font-size: 10px;
+    font-weight: 100;
 }
